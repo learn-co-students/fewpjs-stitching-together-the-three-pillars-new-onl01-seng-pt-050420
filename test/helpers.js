@@ -12,7 +12,7 @@ const babelResult = babel.transformFileSync(
     presets: ['env']
   }
 );
-
+  
 const src = babelResult.code
 
 jsdom({
